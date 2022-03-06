@@ -9,10 +9,10 @@
 
 return [
     'exceptions' => [
-        'user_has_servers' => 'Cannot delete a user with active servers attached to their account. Please delete their servers before continuing.',
+        'user_has_servers' => 'Der Account kann nicht gelöscht werden, da noch Server mit diesem assoziiert sind.',
     ],
     'notices' => [
-        'account_created' => 'Account has been created successfully.',
-        'account_updated' => 'Account has been successfully updated.',
+        'account_created' => 'Der Account wurde erfolgreich erstellt.',
+        'account_updated' => 'Der Account wurde erfolgreich gespeichert.',
     ],
 ];
